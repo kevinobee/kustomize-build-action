@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Kustomize build
-        uses: kevinobee/kustomize-build-action
+        uses: kevinobee/kustomize-build-action@v1
         with:
           build-path: '.'
           output-file: 'kustomize.yaml'
